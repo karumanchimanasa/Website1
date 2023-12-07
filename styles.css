@@ -11,10 +11,11 @@ body {
 } */
 
 header {
-    background-color: black; /* Updated color for better contrast */
-    color: white;
+    background-color: #333;
+    color: #fff; /* White text for strong contrast */
     padding: 1em;
 }
+
 
 
 nav ul {
@@ -44,8 +45,8 @@ section.product {
 } */
 
 button {
-    background-color: #008000; /* Updated color for better contrast */
-    color: white;
+    background-color: #4CAF50;
+    color: #fff; /* White text for strong contrast */
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
@@ -53,14 +54,15 @@ button {
 }
 
 footer {
-    background-color:black ; /* Updated color for better contrast */
-    color: white;
+    background-color: #333;
+    color: #fff; /* White text for strong contrast */
     text-align: center;
     padding: 1em;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
 
 
 /* footer {
