@@ -4,17 +4,26 @@ body {
     padding: 0;
 }
 
-/* header {
-    background-color: #333;
-    color: white;
-    padding: 1em;
-} */
-
+/* Header Styles */
 header {
     background-color: #333;
     color: #fff; /* White text for strong contrast */
     padding: 1em;
 }
+
+/* Header Navigation Link Styles */
+nav a {
+    color: #fff; /* Set the color explicitly for navigation links */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+/* Header Navigation Link Hover Styles */
+nav a:hover {
+    border-bottom: 2px solid #fff; /* Add a white underline on hover for better visibility */
+}
+
+/* Rest of your existing styles... */
+
 
 
 
@@ -23,6 +32,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+
 
 nav ul li {
     display: inline;
