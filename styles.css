@@ -39,11 +39,16 @@ nav ul li {
     margin-right: 20px;
 }
 
+/* Product Section Styles */
 section.product {
     margin: 20px;
     padding: 20px;
     border: 1px solid #ddd;
+    color: #333; /* Set the text color for better contrast */
 }
+
+/* Rest of your existing styles... */
+
 
 /* button {
     background-color: #4CAF50;
