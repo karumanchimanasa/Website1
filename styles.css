@@ -4,35 +4,17 @@ body {
     padding: 0;
 }
 
-/* Header Styles */
 header {
     background-color: #333;
-    color: #fff; /* White text for strong contrast */
+    color: white;
     padding: 1em;
 }
-
-/* Header Navigation Link Styles */
-nav a {
-    color: #fff; /* Set the color explicitly for navigation links */
-    text-decoration: none; /* Remove underlines from links */
-}
-
-/* Header Navigation Link Hover Styles */
-nav a:hover {
-    border-bottom: 2px solid #fff; /* Add a white underline on hover for better visibility */
-}
-
-/* Rest of your existing styles... */
-
-
-
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-
 
 nav ul li {
     display: inline;
@@ -42,46 +24,19 @@ nav ul li {
 section.product {
     margin: 20px;
     padding: 20px;
-    border: 1px solid rgb(76, 175, 80);
-    background-color: rgb(255, 255, 255); /* White background */
-    color: #000; /* Black text for better contrast */
+    border: 1px solid #ddd;
 }
 
-/* button {
+button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-} */
-
-/* Button Styles */
-button {
-    background-color: #006400; /* Dark green background */
-    color: #fff; /* White text for strong contrast */
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
-
-/* Rest of your existing styles... */
-
 
 footer {
-    background-color: #333;
-    color: #fff; /* White text for strong contrast */
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-
-
-/* footer {
     background-color: #333;
     color: white;
     text-align: center;
@@ -89,4 +44,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-} */
+}
